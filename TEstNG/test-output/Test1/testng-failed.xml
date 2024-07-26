@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="20" parallel="tests" name="Failed suite [Test1]">
+  <parameter name="URL" value="Kedar"/>
+  <listeners>
+    <listener class-name="Testnglearn.Listerner"/>
+  </listeners>
+  <test thread-count="20" parallel="tests" name="Test(failed)">
+    <classes>
+      <class name="Testnglearn.TEst3">
+        <methods>
+          <include name="tEste3"/>
+        </methods>
+      </class> <!-- Testnglearn.TEst3 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Test1] -->

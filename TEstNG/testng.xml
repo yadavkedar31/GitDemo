@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite name="Test1">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="Testnglearn.Test1"/>
+      <methods>
+		<include name = "testsecong"/>
+	  </methods>
+      <class name ="Testnglearn.TEst2"/>
+      <methods>
+		<exclude name ="TEste.*()"/>
+      </methods>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Test1 -->

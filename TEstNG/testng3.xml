@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite name="Test1">
+	<test  name="Test">
+		<groups>
+			<run> 
+			  <include name= "smoke"/>
+			</run>
+		</groups>
+		<classes>
+			<class name="Testnglearn.Test1" />
+			<class name="Testnglearn.TEst2" />
+			<class name="Testnglearn.TEst3" />
+
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Test1 -->

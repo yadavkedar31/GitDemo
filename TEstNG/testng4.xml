@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite>
+<suite name="Test1" parallel ="tests" thread-count = "20" >
+	<listeners>
+		<listener class-name = "Testnglearn.Listerner"/>>
+	</listeners>
+	<parameter name ="URL" value="Kedar"/>
+	
+	<test name="Test">
+
+		<classes>
+			<class name="Testnglearn.TEst3" />
+			
+		</classes>
+	</test> 
+	
+	
+	<test name="Test1">
+
+		<classes>
+			<class name="Testnglearn.TEst2" />
+			
+		</classes>
+	</test> <!--
+	Test -->
+</suite> <!--
+Test1 -->
