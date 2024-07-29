@@ -12,6 +12,11 @@ public class Test1 {
 	public void ked() {
 		// TODO Auto-generated method stub
 		System.out.println("kedar");
+		System.out.println("kedar1");
+		System.out.println("kedar2");
+		System.out.println("kedar3");
+		System.out.println("kedar4");
+		
 	}
 
 	@Test(groups= {"smoke"})
