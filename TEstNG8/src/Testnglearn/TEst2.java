@@ -21,6 +21,11 @@ public class TEst2 {
 		// TODO Auto-generated method stub
 
 		System.out.println("Smoke2");
+		System.out.println("Smoke2");
+		System.out.println("Smoke2");
+		System.out.println("Smoke2");
+		System.out.println("Smoke2");
+		
 
 	}
 	
@@ -29,6 +34,24 @@ public class TEst2 {
 		// TODO Auto-generated method stub
 
 		System.out.println("BYE BYE123");
+		System.out.println("BYE BYE123");
+		System.out.println("BYE BYE123");
+		System.out.println("BYE BYE123");
+		System.out.println("BYE BYE123");
+		
+
+	}
+
+	@Test
+	private void CASE12() {
+		// TODO Auto-generated method stub
+
+		System.out.println("BYE BYE123");
+		System.out.println("BYE BYE123");
+		System.out.println("BYE BYE123");
+		System.out.println("BYE BYE123");
+		System.out.println("BYE BYE123");
+		
 
 	}
 
